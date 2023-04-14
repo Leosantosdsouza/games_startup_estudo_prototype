@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C59BA90-7E92-C55A-89EC-FF09157CB10E" containerWithKeyObject="4730E2BE-FC72-8BA2-B98D-B2EE3506A028" localFKIndex="A187334E-8EFD-DB5D-F556-C6F4893E38BD" name="tbl_programacao_tbl_desenvolvimento_FK">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:45:01 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<referredTableLongName>tbl_desenvolvimento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F91EFE0-9E6D-0C60-ACD7-592167638D99</referredTableID>
+<keyObject>12881926-E090-0C0B-F73F-14B9F833B99F</keyObject>
+<referredKeyID>12881926-E090-0C0B-F73F-14B9F833B99F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>desenvolvimento_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

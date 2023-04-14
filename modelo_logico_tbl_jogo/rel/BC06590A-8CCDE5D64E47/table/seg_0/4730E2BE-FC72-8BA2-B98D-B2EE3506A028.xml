@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4730E2BE-FC72-8BA2-B98D-B2EE3506A028" name="tbl_ling_programacao">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>FADC4E3D-E490-763B-ACF7-843BEB86D6FB</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<abbreviation>programacao</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ling_java" id="FDF26763-9AA3-4276-B8E2-4549378F8C85">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>DD153A20-F9F4-F752-AA70-E98F469EB903</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ling_py" id="AC0CB7F4-787E-3A96-8708-A11E658D5394">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>44F37CAD-FCF8-464C-0056-F3D37D7DA8ED</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ling_c#" id="25EC0E5A-4CB6-D107-4521-669437F8C4C0">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>AE995D34-0C56-CD0D-1BFD-08935CB971D9</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ling_C++" id="0340F9A9-986B-EB8C-5465-46AFCE0F8635">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>4E775CE5-D26E-E9B7-4EC8-989AA472A772</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="programacao_ID" id="9212BA29-CC10-4C34-0158-A3CCE18F94E0">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="tbl_jogo_jogo_ID" id="3BDE8475-B71E-BDEC-5B6F-11DE0845CCAD">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24128FC1-BDB7-8546-7106-3B5C9F3E55EA" referredColumn="3A5D3319-8497-1C95-92AA-91D9D01E7239"/>
+</associations>
+</Column>
+<Column name="tbl_desenvolvimento_desenvolvimento_ID" id="33ABA8D0-4857-1C3D-B3C5-4C2C1972D6BA">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:45:01 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C59BA90-7E92-C55A-89EC-FF09157CB10E" referredColumn="77D10B46-4DF1-F2FE-62C3-6A91E77D38DA"/>
+</associations>
+</Column>
+<Column name="id_programacao" id="BAF6547F-43A7-EA97-2E5D-2A8B19DB749A">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 01:22:28 UTC</createdTime>
+<generatorID>DBFC59EE-E9AE-4F61-993A-1E871AA55492</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64CC64A0-FAA9-0ACD-B4AD-104EE0D0CBD1" name="programacao_PK">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="9212BA29-CC10-4C34-0158-A3CCE18F94E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B21D5EDD-ECF3-8889-BBF6-4CFF68EB9568" name="tbl_ling_programacao_tbl_jogo_FK">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>FE77794D-A4CC-BB68-E5BC-076A198962A8</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BDE8475-B71E-BDEC-5B6F-11DE0845CCAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A187334E-8EFD-DB5D-F556-C6F4893E38BD" name="tbl_programacao_tbl_desenvolvimento_FK">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:45:01 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33ABA8D0-4857-1C3D-B3C5-4C2C1972D6BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

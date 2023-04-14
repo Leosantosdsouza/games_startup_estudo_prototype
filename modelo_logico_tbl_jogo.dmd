@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_logico_tbl_jogo" id="289B9449-1DD2-EFF2-BAA9-357E34A4CDE9" version="3.5">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:00:34 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>289B9449-1DD2-EFF2-BAA9-357E34A4CDE9</designId>
+</OSDM_Design>

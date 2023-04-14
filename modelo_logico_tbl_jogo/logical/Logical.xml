@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5B575848-2F0D-2186-2F19-8936C009DA28" mainViewID="C04AF73E-C376-C4FB-1A2E-25D811C4F744">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:00:34 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

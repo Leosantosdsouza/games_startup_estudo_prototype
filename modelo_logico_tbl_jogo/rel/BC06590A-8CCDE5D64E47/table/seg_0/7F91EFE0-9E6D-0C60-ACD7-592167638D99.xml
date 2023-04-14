@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F91EFE0-9E6D-0C60-ACD7-592167638D99" name="tbl_desenvolvimento">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>6D976A81-6D19-81A8-3156-9E6853B5B727</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<abbreviation>desenvolvimento</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nm_desenvolvedor" id="8DC891A9-C3AC-BD2D-B1D9-5F2B1902CC46">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>8C14AFD5-FDE6-6348-7FAA-BF4D5B7F1863</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_dev" id="376E4E63-5BAE-4596-C71B-97C2D084C3FD">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>22BF400D-5316-A1D8-C156-3116EC64C9FA</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_desenvolvimento" id="52B9AFC9-90EB-D919-9D14-7CDECD0D5E8C">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>DEA357F0-EBD5-24A8-EB53-13E250269893</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desenvolvimento_ID" id="77D10B46-4DF1-F2FE-62C3-6A91E77D38DA">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="id_desenvolvimento" id="69EA224E-9A73-5E6B-C4C2-2116E0C5348C">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 01:22:28 UTC</createdTime>
+<generatorID>5B3973A8-9B51-4E7E-B811-C730E7845B4B</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12881926-E090-0C0B-F73F-14B9F833B99F" name="desenvolvimento_PK">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="77D10B46-4DF1-F2FE-62C3-6A91E77D38DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

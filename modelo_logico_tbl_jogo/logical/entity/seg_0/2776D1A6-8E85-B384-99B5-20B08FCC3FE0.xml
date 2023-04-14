@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2776D1A6-8E85-B384-99B5-20B08FCC3FE0" name="tbl_jogo">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:05:09 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<engineerTo>
+<item key="BC06590A-E082-8264-6666-8CCDE5D64E47" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>jogo</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_jogo" id="C5D4FD20-5F1D-8594-61D9-D1B8C4A9E95C">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:05:51 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<engineerTo>
+<item key="BC06590A-E082-8264-6666-8CCDE5D64E47" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_jogo" id="A2A012C9-8A5D-F873-4955-FA3EDCC8E96C">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:06:22 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<engineerTo>
+<item key="BC06590A-E082-8264-6666-8CCDE5D64E47" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_criacao" id="C076A9F0-3921-FEF5-3A96-D7C146B2DF33">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:06:52 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<engineerTo>
+<item key="BC06590A-E082-8264-6666-8CCDE5D64E47" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

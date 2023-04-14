@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D976A81-6D19-81A8-3156-9E6853B5B727" name="tbl_desenvolvimento">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:13:46 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<engineerTo>
+<item key="BC06590A-E082-8264-6666-8CCDE5D64E47" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>desenvolvimento</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_desenvolvimento" id="5B3973A8-9B51-4E7E-B811-C730E7845B4B">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 01:21:48 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<engineerTo>
+<item key="BC06590A-E082-8264-6666-8CCDE5D64E47" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_desenvolvedor" id="8C14AFD5-FDE6-6348-7FAA-BF4D5B7F1863">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:14:07 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<engineerTo>
+<item key="BC06590A-E082-8264-6666-8CCDE5D64E47" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dev" id="22BF400D-5316-A1D8-C156-3116EC64C9FA">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:14:27 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<engineerTo>
+<item key="BC06590A-E082-8264-6666-8CCDE5D64E47" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_desenvolvimento" id="DEA357F0-EBD5-24A8-EB53-13E250269893">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:14:40 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<engineerTo>
+<item key="BC06590A-E082-8264-6666-8CCDE5D64E47" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

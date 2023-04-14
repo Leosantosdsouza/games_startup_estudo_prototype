@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE17E22A-E94C-50E9-4EDA-34B2247645B7" name="tbl_jogo">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>2776D1A6-8E85-B384-99B5-20B08FCC3FE0</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<ordsAlias>tbl_jogo</ordsAlias>
+<abbreviation>jogo</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_jogo" id="CD0D5E77-CE62-2F02-4081-5F535CD4209F">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>C5D4FD20-5F1D-8594-61D9-D1B8C4A9E95C</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_jogo" id="B2BD5B89-060F-7574-38D4-698272EB6D94">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>A2A012C9-8A5D-F873-4955-FA3EDCC8E96C</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_criacao" id="6F0A4793-F72E-346D-A961-06F23BED0FD4">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>C076A9F0-3921-FEF5-3A96-D7C146B2DF33</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jogo_ID" id="3A5D3319-8497-1C95-92AA-91D9D01E7239">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="tbl_financiero_financiero_ID" id="DE918DF6-EFA0-6984-80E9-D7B1E8E3728C">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F52DE341-564A-8C09-E394-1B164059942D" referredColumn="72897502-2CA6-11B0-C4D1-B04545BBA00F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C66A0E2-9C88-697C-3775-041098DCF603" name="jogo_PK">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3A5D3319-8497-1C95-92AA-91D9D01E7239"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C217B1D5-539F-AC3F-6C31-EB11173C95C7" name="tbl_jogo_tbl_financiero_FK">
+<createdBy>leo_s</createdBy>
+<createdTime>2023-03-07 00:40:57 UTC</createdTime>
+<generatorID>960F8B60-3818-1418-27BF-26D73840FCB6</generatorID>
+<ownerDesignName>modelo_logico_tbl_jogo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE918DF6-EFA0-6984-80E9-D7B1E8E3728C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
